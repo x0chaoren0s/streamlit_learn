@@ -10,4 +10,4 @@ else:
 def click_fun():
     print('pressed btn!')
 
-st.button('btn', on_click=click_fun)
+st.button('btn', key=1, on_click=click_fun)
